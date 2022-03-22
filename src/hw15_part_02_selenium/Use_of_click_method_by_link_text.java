@@ -1,4 +1,4 @@
-package hw15;
+package hw15_part_02_selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,8 +7,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_click_method_by_unique_name_locator {
-
+public class Use_of_click_method_by_link_text {
 	WebDriver driver;
 
 	@BeforeTest
@@ -18,14 +17,14 @@ public class Use_of_click_method_by_unique_name_locator {
 		driver = new ChromeDriver();
 		driver.manage().window().fullscreen();
 		driver.manage().deleteAllCookies();
-		driver.get("https://www.icc-cricket.com/sign-in");
-		Thread.sleep(3000);
+		driver.get("https://www1.nyc.gov/site/dcas/about/citywide-administrative-services-newsletter-sign-up.page");
+		Thread.sleep(5000);
 	}
 
 	@Test(enabled = true, priority = 1)
-	public void signinFormTest() throws InterruptedException {
-		driver.findElement(By.name("user-signin")).click();
-		Thread.sleep(3000);
+	public void mobileAppsTest() throws InterruptedException {
+		driver.findElement(By.linkText("NYC Mobile Apps")).click(); // "NYC Mobile Apps" button
+		Thread.sleep(5000);
 	}
 
 	@AfterTest

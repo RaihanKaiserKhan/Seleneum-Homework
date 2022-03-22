@@ -1,4 +1,4 @@
-package hw15;
+package hw15_part_02_selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +7,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_click_method_by_CSS_selector_class {
+public class Use_of_click_method_by_unique_name_locator {
+
 	WebDriver driver;
 
 	@BeforeTest
@@ -15,16 +16,16 @@ public class Use_of_click_method_by_CSS_selector_class {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\rksun\\eclipse-workspace\\SeleniumMethods\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		driver.manage().window().fullscreen();
 		driver.manage().deleteAllCookies();
-		driver.get("https://www.ae.com/us/en");
-		Thread.sleep(5000);
+		driver.get("https://www.icc-cricket.com/sign-in");
+		Thread.sleep(3000);
 	}
 
 	@Test(enabled = true, priority = 1)
-	public void investorFooterTest() throws InterruptedException {
-		driver.findElement(By.cssSelector("a.footer-link-investors")).click();
-		Thread.sleep(5000);
+	public void signinFormTest() throws InterruptedException {
+		driver.findElement(By.name("user-signin")).click();
+		Thread.sleep(3000);
 	}
 
 	@AfterTest

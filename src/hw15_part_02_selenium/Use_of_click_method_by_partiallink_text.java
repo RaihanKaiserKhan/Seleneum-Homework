@@ -1,4 +1,4 @@
-package hw15;
+package hw15_part_02_selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
