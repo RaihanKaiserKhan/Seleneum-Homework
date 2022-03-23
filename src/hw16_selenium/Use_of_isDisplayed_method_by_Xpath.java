@@ -1,4 +1,4 @@
-package hw16;
+package hw16_selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

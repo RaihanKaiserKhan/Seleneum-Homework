@@ -1,14 +1,12 @@
-package hw16;
+package hw16_selenium;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.By.ByXPath;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_get_current_URL_method {
+public class Use_of_getTitle_methode {
 	WebDriver driver;
 
 	@BeforeTest
@@ -18,16 +16,14 @@ public class Use_of_get_current_URL_method {
 		driver = new ChromeDriver();
 		driver.manage().window().fullscreen();
 		driver.manage().deleteAllCookies();
-		driver.get("https://www.amazon.com/ref=nav_logo");
-		Thread.sleep(5000);
+		driver.get("https://www1.nyc.gov/site/dcas/about/citywide-administrative-services-newsletter-sign-up.page");
+		Thread.sleep(10000);
 	}
 
 	@Test(enabled = true, priority = 1)
-	public void getCurrentURLTestTest() throws InterruptedException {
-		driver.findElement(By.xpath("//span[text()=\"Returns\"]")).click();
-		Thread.sleep(10000);
-		driver.getCurrentUrl();
-		System.out.println("The current url is :" + driver.getCurrentUrl());
+	public void getTitleTest() {
+		driver.getTitle();
+		System.out.println("The title of the page is :" + driver.getTitle());
 	}
 
 	@AfterTest

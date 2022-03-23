@@ -1,4 +1,4 @@
-package hw16;
+package hw16_selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.By.ByXPath;
@@ -8,7 +8,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_isSelect_method {
+public class Use_of_get_current_URL_method {
 	WebDriver driver;
 
 	@BeforeTest
@@ -16,17 +16,18 @@ public class Use_of_isSelect_method {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\rksun\\eclipse-workspace\\SeleniumMethods\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		driver.manage().window().fullscreen();
 		driver.manage().deleteAllCookies();
-		driver.get("https://www.discover.com/");
+		driver.get("https://www.amazon.com/ref=nav_logo");
+		Thread.sleep(5000);
 	}
 
 	@Test(enabled = true, priority = 1)
-	public void checkBoxTest() throws InterruptedException {
-		driver.findElement(By.xpath("//input[@id=\"id-checkbox-content\"]")).click();
-		Thread.sleep(2000);
-		boolean checkBoxSelected = driver.findElement(By.xpath("//input[@id=\"id-checkbox-content\"]")).isSelected();
-		System.out.println("Is the check box selected? Ans: " + checkBoxSelected);
+	public void getCurrentURLTestTest() throws InterruptedException {
+		driver.findElement(By.xpath("//span[text()=\"Returns\"]")).click();
+		Thread.sleep(10000);
+		driver.getCurrentUrl();
+		System.out.println("The current url is :" + driver.getCurrentUrl());
 	}
 
 	@AfterTest

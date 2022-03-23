@@ -1,4 +1,4 @@
-package hw16;
+package hw16_selenium;
 
 import java.awt.Button;
 
