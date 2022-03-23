@@ -18,24 +18,23 @@ public class Use_of_send_key_method_click_submit_and_clear {
 		driver.manage().window().fullscreen();
 		driver.manage().deleteAllCookies();
 		driver.get("https://www.amazon.com/ref=nav_logo");
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 	}
 
 	@Test(enabled = true, priority = 1)
 	public void sendKeyMethodTest() throws InterruptedException {
-		driver.findElement(By.xpath("//input[@id=\"twotabsearchtextbox\"]")).sendKeys("books");
+		driver.findElement(By.xpath("//input[@id=\"twotabsearchtextbox\"]")).sendKeys("ps4");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//input[@data-ved=\"0ahUKEwjzyfuPotr2AhVFiOAKHXbDDOQQ4dUDCA8\"]")).click();
-		Thread.sleep(5000);
-		driver.findElement(By.xpath("//input[@class=\"gLFyf gsfi\"]")).clear();
-		Thread.sleep(5000);
-		//driver.findElement(By.xpath("//input[@class=\"gLFyf gsfi\"]")).sendKeys("Mushfiqur Rahim");
-		//Thread.sleep(5000);
-		//driver.findElement(By.xpath("//input[@data-ved=\"0ahUKEwjzyfuPotr2AhVFiOAKHXbDDOQQ4dUDCA8\"]")).click();
-		//Thread.sleep(5000);
+		driver.findElement(By.xpath("//input[@id=\"nav-search-submit-button\"]")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//input[@id=\"twotabsearchtextbox\"]")).clear();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//input[@id=\"twotabsearchtextbox\"]")).sendKeys("ps5");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//input[@id=\"nav-search-submit-button\"]")).click();
+		Thread.sleep(2000);
 	}
 
-	@AfterTest
 	public void tearUp() {
 		driver.quit();
 	}
