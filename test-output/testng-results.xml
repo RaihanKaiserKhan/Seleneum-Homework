@@ -2,20 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-23T00:24:58 EDT" name="Default suite" finished-at="2022-03-23T00:27:49 EDT" duration-ms="170995">
+  <suite started-at="2022-03-27T14:49:57 EDT" name="Default suite" finished-at="2022-03-27T14:50:11 EDT" duration-ms="14191">
     <groups>
     </groups>
-    <test started-at="2022-03-23T00:24:58 EDT" name="Default test" finished-at="2022-03-23T00:27:49 EDT" duration-ms="170995">
-      <class name="hw16.Use_of_send_key_method_click_submit_and_clear">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hw16.Use_of_send_key_method_click_submit_and_clear@659499f1]" started-at="2022-03-23T00:24:58 EDT" name="setUp" finished-at="2022-03-23T00:26:50 EDT" duration-ms="111780" status="PASS">
+    <test started-at="2022-03-27T14:49:57 EDT" name="Default test" finished-at="2022-03-27T14:50:11 EDT" duration-ms="14191">
+      <class name="HW_18_selenium.Firefox_driver">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HW_18_selenium.Firefox_driver@51e69659]" started-at="2022-03-27T14:49:57 EDT" name="setUp" finished-at="2022-03-27T14:50:02 EDT" duration-ms="4958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sendKeyMethodTest()[pri:1, instance:hw16.Use_of_send_key_method_click_submit_and_clear@659499f1]" started-at="2022-03-23T00:26:50 EDT" name="sendKeyMethodTest" finished-at="2022-03-23T00:27:49 EDT" duration-ms="59129" status="PASS">
+        <test-method signature="fireFoxBrowsertest()[pri:1, instance:HW_18_selenium.Firefox_driver@51e69659]" started-at="2022-03-27T14:50:02 EDT" name="fireFoxBrowsertest" finished-at="2022-03-27T14:50:08 EDT" duration-ms="6756" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sendKeyMethodTest -->
-      </class> <!-- hw16.Use_of_send_key_method_click_submit_and_clear -->
+        </test-method> <!-- fireFoxBrowsertest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:HW_18_selenium.Firefox_driver@51e69659]" started-at="2022-03-27T14:50:09 EDT" name="tearUp" finished-at="2022-03-27T14:50:11 EDT" duration-ms="2427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- HW_18_selenium.Firefox_driver -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

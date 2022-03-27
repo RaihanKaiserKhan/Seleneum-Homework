@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw16.Use_of_send_key_method_click_submit_and_clear">
+      <class name="HW_18_selenium.Firefox_driver">
         <methods>
-          <include name="sendKeyMethodTest3"/>
-          <include name="tearUp"/>
           <include name="setUp"/>
+          <include name="tearUp"/>
+          <include name="fireFoxBrowsertest"/>
         </methods>
-      </class> <!-- hw16.Use_of_send_key_method_click_submit_and_clear -->
+      </class> <!-- HW_18_selenium.Firefox_driver -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
