@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-27T14:49:57 EDT" name="Default suite" finished-at="2022-03-27T14:50:11 EDT" duration-ms="14191">
+  <suite started-at="2022-04-08T11:08:00 EDT" name="Default suite" finished-at="2022-04-08T11:08:19 EDT" duration-ms="18583">
     <groups>
     </groups>
-    <test started-at="2022-03-27T14:49:57 EDT" name="Default test" finished-at="2022-03-27T14:50:11 EDT" duration-ms="14191">
-      <class name="HW_18_selenium.Firefox_driver">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:HW_18_selenium.Firefox_driver@51e69659]" started-at="2022-03-27T14:49:57 EDT" name="setUp" finished-at="2022-03-27T14:50:02 EDT" duration-ms="4958" status="PASS">
+    <test started-at="2022-04-08T11:08:00 EDT" name="Default test" finished-at="2022-04-08T11:08:19 EDT" duration-ms="18583">
+      <class name="hw_20.Xpath">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hw_20.Xpath@4f80542f]" started-at="2022-04-08T11:08:00 EDT" name="setUp" finished-at="2022-04-08T11:08:05 EDT" duration-ms="4965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fireFoxBrowsertest()[pri:1, instance:HW_18_selenium.Firefox_driver@51e69659]" started-at="2022-03-27T14:50:02 EDT" name="fireFoxBrowsertest" finished-at="2022-03-27T14:50:08 EDT" duration-ms="6756" status="PASS">
+        <test-method signature="searchButtonByParent()[pri:1, instance:hw_20.Xpath@4f80542f]" started-at="2022-04-08T11:08:05 EDT" name="searchButtonByParent" finished-at="2022-04-08T11:08:09 EDT" duration-ms="3974" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fireFoxBrowsertest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:HW_18_selenium.Firefox_driver@51e69659]" started-at="2022-03-27T14:50:09 EDT" name="tearUp" finished-at="2022-03-27T14:50:11 EDT" duration-ms="2427" status="PASS">
+        </test-method> <!-- searchButtonByParent -->
+        <test-method signature="searchFieldByChild()[pri:2, instance:hw_20.Xpath@4f80542f]" started-at="2022-04-08T11:08:09 EDT" name="searchFieldByChild" finished-at="2022-04-08T11:08:14 EDT" duration-ms="4615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFieldByChild -->
+        <test-method signature="shoppingCartByFollowingSibling()[pri:3, instance:hw_20.Xpath@4f80542f]" started-at="2022-04-08T11:08:14 EDT" name="shoppingCartByFollowingSibling" finished-at="2022-04-08T11:08:16 EDT" duration-ms="2102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingCartByFollowingSibling -->
+        <test-method signature="selectYourAddressByPrecedingSibling()[pri:4, instance:hw_20.Xpath@4f80542f]" started-at="2022-04-08T11:08:16 EDT" name="selectYourAddressByPrecedingSibling" finished-at="2022-04-08T11:08:18 EDT" duration-ms="2223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectYourAddressByPrecedingSibling -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:hw_20.Xpath@4f80542f]" started-at="2022-04-08T11:08:18 EDT" name="tearUp" finished-at="2022-04-08T11:08:19 EDT" duration-ms="624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- HW_18_selenium.Firefox_driver -->
+      </class> <!-- hw_20.Xpath -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

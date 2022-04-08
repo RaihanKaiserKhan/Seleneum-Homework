@@ -91,5 +91,27 @@
 	<classpathentry kind="lib" path="C:/Users/rksun/eclipse-workspace/SeleniumMethods/lib/selenium-support-4.1.2-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/rksun/eclipse-workspace/SeleniumMethods/lib/slf4j-api-1.7.35.jar"/>
 	<classpathentry kind="lib" path="C:/Users/rksun/eclipse-workspace/SeleniumMethods/lib/testng-7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/bcpkix-jdk15on-1.64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/bcprov-jdk15on-1.64.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/commons-codec-1.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/commons-compress-1.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/dec-0.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/docker-java-3.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/docker-java-api-3.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/docker-java-core-3.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/docker-java-transport-3.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/docker-java-transport-httpclient5-3.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/gson-2.8.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/httpclient5-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/httpcore5-5.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/jackson-annotations-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/jackson-core-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/jackson-databind-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/jcl-over-slf4j-1.7.30.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/jna-5.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/jsoup-1.14.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rksun/Desktop/QA Class/driver_1/webdrivermanager-5.0.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
