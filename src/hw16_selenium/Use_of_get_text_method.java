@@ -26,10 +26,10 @@ public class Use_of_get_text_method {
 
 	@Test(enabled = true, priority = 1)
 	public void getTextMethodTest() throws InterruptedException {
-		WebElement object = driver.findElement(By.xpath("//span[text()=\"Returns\"]"));
+		WebElement webElement=driver.findElement(By.xpath("//span[text()=\"Returns\"]"));
 		Thread.sleep(2000);
-		object.getText();
-		System.out.println("The text of the button is :" + object.getText());
+		webElement.getText();
+		System.out.println("The text of the button is :" + webElement.getText());
 	}
 
 	@AfterTest

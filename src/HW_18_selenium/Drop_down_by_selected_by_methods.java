@@ -30,7 +30,7 @@ public class Drop_down_by_selected_by_methods {
 	public void dropDownBySelectByIndexTest() throws InterruptedException {
 		WebElement dropDown = driver.findElement(By.xpath("//select[@id=\"gh-cat\"]"));
 		Select select = new Select(dropDown);
-		select.selectByIndex(5);
+		select.selectByVisibleText(null)
 		Thread.sleep(3000);
 	}
 

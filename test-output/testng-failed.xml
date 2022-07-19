@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw_20.Xpath">
+      <class name="HW_18_selenium.Mouse_hover_action_test">
         <methods>
           <include name="tearUp"/>
+          <include name="mouseHoverOnMyEbay"/>
+          <include name="mouseHoverOnWatchList"/>
           <include name="setUp"/>
-          <include name="shoppingCartByFollowingSibling"/>
         </methods>
-      </class> <!-- hw_20.Xpath -->
+      </class> <!-- HW_18_selenium.Mouse_hover_action_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

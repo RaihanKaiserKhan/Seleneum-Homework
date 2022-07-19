@@ -10,13 +10,14 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Mouse_hover_action_test {
 	WebDriver driver;
 
 	@BeforeTest
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\rksun\\eclipse-workspace\\SeleniumMethods\\driver\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();

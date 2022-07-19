@@ -24,12 +24,12 @@ public class Use_of_send_key_and_clear_method_by_enter_keys {
 
 	@Test(enabled = true, priority = 1)
 	public void sendKeyAndClearMethodTest() throws InterruptedException {
-		driver.findElement(By.xpath("//input[@id=\"twotabsearchtextbox\"]")).sendKeys("ps4", Keys.ENTER);
+		driver.findElement(By.xpath("//input[@id=\"twotabsearchtextbox\"]")).sendKeys(Keys.ENTER);
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//input[@id=\"twotabsearchtextbox\"]")).clear();
-		Thread.sleep(2000);
-		driver.findElement(By.xpath("//input[@id=\"twotabsearchtextbox\"]")).sendKeys("ps5", Keys.ENTER);
-		Thread.sleep(2000);
+//		driver.findElement(By.xpath("//input[@id=\"twotabsearchtextbox\"]")).clear();
+//		Thread.sleep(2000);
+//		driver.findElement(By.xpath("//input[@id=\"twotabsearchtextbox\"]")).sendKeys("ps5", Keys.ENTER);
+//		Thread.sleep(2000);
 	}
 
 	@AfterTest
